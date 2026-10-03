@@ -1,0 +1,27 @@
+.changeset/rebuild-after-failed-build.md
+  s_41e254574b64db::t_52fd8ef24d1836 1-5
+packages/lambda/src/LambdaHandler.ts
+  s_41e254574b64db::t_535fc3a4fbdf73 7-9,13,17,139,142,193,198,264-277,429,433
+packages/lambda/src/LambdaRuntime.ts
+  s_41e254574b64db::t_6273d43e9fe510 6,33
+packages/lambda/src/internal/runtime.ts
+  s_41e254574b64db::t_1c20b5560cba77 1-53
+packages/lambda/test/LambdaHandler.test.ts
+  s_41e254574b64db::t_1de04aaae8fbe2 66-97,374-412
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "fa55fae986d73869eaa6890c7c973b3a18155c5b",
+  "prompts": {},
+  "sessions": {
+    "s_41e254574b64db": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7cd8893d-4b34-4340-8865-eee8c7b35b0a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "bert.degeyter <bert.degeyter@showpad.com>"
+    }
+  }
+}
