@@ -1,0 +1,621 @@
+.changeset/esm-only-package-exports.md
+  s_41e254574b64db::t_1b2cf9188f8dc3 1-78
+.projenrc.ts
+  s_41e254574b64db::t_6333640cb3b885 4
+packages/client-account/.gitignore
+  s_41e254574b64db::t_73dae989486610 35,37
+packages/client-account/.projen/tasks.json
+  s_41e254574b64db::t_5b11fd764fae45 67
+packages/client-account/package.json
+  s_41e254574b64db::t_b4c9621c71e27b 39,43,46,48-60
+packages/client-account/tsconfig.esm.json
+  s_41e254574b64db::t_510d68527ade40 6
+packages/client-api-gateway-management-api/.gitignore
+  s_41e254574b64db::t_6a71dcc4847c96 35,37
+packages/client-api-gateway-management-api/.projen/tasks.json
+  s_41e254574b64db::t_259a5e2844dd16 67
+packages/client-api-gateway-management-api/package.json
+  s_41e254574b64db::t_e546ae86a3acaf 39,43,46,48-60
+packages/client-api-gateway-management-api/tsconfig.esm.json
+  s_41e254574b64db::t_3f9661094a472a 6
+packages/client-api-gateway-v2/.gitignore
+  s_41e254574b64db::t_7222a633c3d998 35,37
+packages/client-api-gateway-v2/.projen/tasks.json
+  s_41e254574b64db::t_cfe8651d6918ec 67
+packages/client-api-gateway-v2/package.json
+  s_41e254574b64db::t_622b71a5854d8a 39,43,46,48-60
+packages/client-api-gateway-v2/tsconfig.esm.json
+  s_41e254574b64db::t_66fbd4d94e5548 6
+packages/client-api-gateway/.gitignore
+  s_41e254574b64db::t_72b88bbd89eb3b 35,37
+packages/client-api-gateway/.projen/tasks.json
+  s_41e254574b64db::t_3ef89706d64761 67
+packages/client-api-gateway/package.json
+  s_41e254574b64db::t_d9d2c8eacf4818 39,43,46,48-60
+packages/client-api-gateway/tsconfig.esm.json
+  s_41e254574b64db::t_acfe31871d1ba4 6
+packages/client-athena/.gitignore
+  s_41e254574b64db::t_becf18752a1a8d 35,37
+packages/client-athena/.projen/tasks.json
+  s_41e254574b64db::t_d3e4898db7672d 67
+packages/client-athena/package.json
+  s_41e254574b64db::t_aca3d401803c09 39,43,46,48-60
+packages/client-athena/tsconfig.esm.json
+  s_41e254574b64db::t_96fcc5a8d967de 6
+packages/client-auto-scaling/.gitignore
+  s_41e254574b64db::t_279752a57723d8 35,37
+packages/client-auto-scaling/.projen/tasks.json
+  s_41e254574b64db::t_a87dd4effc17f6 67
+packages/client-auto-scaling/package.json
+  s_41e254574b64db::t_abafc1157927dd 39,43,46,48-60
+packages/client-auto-scaling/tsconfig.esm.json
+  s_41e254574b64db::t_906375e5943f24 6
+packages/client-bedrock-agent/.gitignore
+  s_41e254574b64db::t_ca5007f4ce75a9 35,37
+packages/client-bedrock-agent/.projen/tasks.json
+  s_41e254574b64db::t_50ee99c664f5ca 67
+packages/client-bedrock-agent/package.json
+  s_41e254574b64db::t_2e61606d45b7e3 39,43,46,48-60
+packages/client-bedrock-agent/tsconfig.esm.json
+  s_41e254574b64db::t_cd1a5fb33a6ce6 6
+packages/client-bedrock-agentcore-control/.gitignore
+  s_41e254574b64db::t_a4d9b025d2b9a6 35,37
+packages/client-bedrock-agentcore-control/.projen/tasks.json
+  s_41e254574b64db::t_aa94fb0ccf3fea 67
+packages/client-bedrock-agentcore-control/package.json
+  s_41e254574b64db::t_fedd5398690ec1 39,43,46,48-60
+packages/client-bedrock-agentcore-control/tsconfig.esm.json
+  s_41e254574b64db::t_34eaec506c15e6 6
+packages/client-bedrock-agentcore/.gitignore
+  s_41e254574b64db::t_d62f025c2fa6b5 35,37
+packages/client-bedrock-agentcore/.projen/tasks.json
+  s_41e254574b64db::t_4c1dcc7051f8af 67
+packages/client-bedrock-agentcore/package.json
+  s_41e254574b64db::t_5b25535d59d7db 39,43,46,48-60
+packages/client-bedrock-agentcore/tsconfig.esm.json
+  s_41e254574b64db::t_3dbe1c3daa7aed 6
+packages/client-bedrock-runtime/.gitignore
+  s_41e254574b64db::t_2c4a99705aa982 35,37
+packages/client-bedrock-runtime/.projen/tasks.json
+  s_41e254574b64db::t_fec09f58907969 67
+packages/client-bedrock-runtime/package.json
+  s_41e254574b64db::t_727d577b65aa77 39,43,46,48-60
+packages/client-bedrock-runtime/tsconfig.esm.json
+  s_41e254574b64db::t_9e2ebcc647a8d8 6
+packages/client-bedrock/.gitignore
+  s_41e254574b64db::t_cfff02a1f28169 35,37
+packages/client-bedrock/.projen/tasks.json
+  s_41e254574b64db::t_d3c95c44f49767 67
+packages/client-bedrock/package.json
+  s_41e254574b64db::t_7b00bbb68500d0 39,43,46,48-60
+packages/client-bedrock/tsconfig.esm.json
+  s_41e254574b64db::t_ad1d06729c41b2 6
+packages/client-cloudformation/.gitignore
+  s_41e254574b64db::t_8f8d540c540c2e 35,37
+packages/client-cloudformation/.projen/tasks.json
+  s_41e254574b64db::t_e7e2b751cc5d07 67
+packages/client-cloudformation/package.json
+  s_41e254574b64db::t_71732462d3e890 39,43,46,48-60
+packages/client-cloudformation/tsconfig.esm.json
+  s_41e254574b64db::t_ecfe9bd64b8e0a 6
+packages/client-cloudfront/.gitignore
+  s_41e254574b64db::t_33f2b8b6ea5021 35,37
+packages/client-cloudfront/.projen/tasks.json
+  s_41e254574b64db::t_56ab620a6a549d 67
+packages/client-cloudfront/package.json
+  s_41e254574b64db::t_172ac861aaacc4 39,43,46,48-60
+packages/client-cloudfront/tsconfig.esm.json
+  s_41e254574b64db::t_d5d0816ccd254d 6
+packages/client-cloudsearch/.gitignore
+  s_41e254574b64db::t_1d8e750910ba98 35,37
+packages/client-cloudsearch/.projen/tasks.json
+  s_41e254574b64db::t_71fcf0dfe452e1 67
+packages/client-cloudsearch/package.json
+  s_41e254574b64db::t_8811fbaf30c13f 39,43,46,48-60
+packages/client-cloudsearch/tsconfig.esm.json
+  s_41e254574b64db::t_10d66a03081bc7 6
+packages/client-cloudtrail/.gitignore
+  s_41e254574b64db::t_cbbb136eb2a19a 35,37
+packages/client-cloudtrail/.projen/tasks.json
+  s_41e254574b64db::t_8340acc487a611 67
+packages/client-cloudtrail/package.json
+  s_41e254574b64db::t_78aa334972e45e 39,43,46,48-60
+packages/client-cloudtrail/tsconfig.esm.json
+  s_41e254574b64db::t_2cd767eb79b8a0 6
+packages/client-cloudwatch-events/.gitignore
+  s_41e254574b64db::t_a9386f761c7563 35,37
+packages/client-cloudwatch-events/.projen/tasks.json
+  s_41e254574b64db::t_d79e65f533fe8d 67
+packages/client-cloudwatch-events/package.json
+  s_41e254574b64db::t_831b577cc422b9 39,43,46,48-60
+packages/client-cloudwatch-events/tsconfig.esm.json
+  s_41e254574b64db::t_3952fa207ae10d 6
+packages/client-cloudwatch-logs/.gitignore
+  s_41e254574b64db::t_4bb45e9a10fc9d 35,37
+packages/client-cloudwatch-logs/.projen/tasks.json
+  s_41e254574b64db::t_13ebcd10bcc07d 67
+packages/client-cloudwatch-logs/package.json
+  s_41e254574b64db::t_04505512aaab6c 39,43,46,48-60
+packages/client-cloudwatch-logs/tsconfig.esm.json
+  s_41e254574b64db::t_2a2773d9029e71 6
+packages/client-cloudwatch/.gitignore
+  s_41e254574b64db::t_59dcb2071bc659 35,37
+packages/client-cloudwatch/.projen/tasks.json
+  s_41e254574b64db::t_f4a2c8bce4435d 67
+packages/client-cloudwatch/package.json
+  s_41e254574b64db::t_daeafd8182efdb 39,43,46,48-60
+packages/client-cloudwatch/tsconfig.esm.json
+  s_41e254574b64db::t_352683abbe5ac5 6
+packages/client-codedeploy/.gitignore
+  s_41e254574b64db::t_f1bf4e04b533d9 35,37
+packages/client-codedeploy/.projen/tasks.json
+  s_41e254574b64db::t_6dcd7b0590b7e0 67
+packages/client-codedeploy/package.json
+  s_41e254574b64db::t_a5136843c08292 39,43,46,48-60
+packages/client-codedeploy/tsconfig.esm.json
+  s_41e254574b64db::t_4630ac46cf858e 6
+packages/client-cognito-identity-provider/.gitignore
+  s_41e254574b64db::t_97741e74682b82 35,37
+packages/client-cognito-identity-provider/.projen/tasks.json
+  s_41e254574b64db::t_76d34bc1637c6b 67
+packages/client-cognito-identity-provider/package.json
+  s_41e254574b64db::t_f547349ae355a8 39,43,46,48-60
+packages/client-cognito-identity-provider/tsconfig.esm.json
+  s_41e254574b64db::t_090b7ee10862bd 6
+packages/client-data-pipeline/.gitignore
+  s_41e254574b64db::t_72232d05b88c26 35,37
+packages/client-data-pipeline/.projen/tasks.json
+  s_41e254574b64db::t_a1e0773cdb4e69 67
+packages/client-data-pipeline/package.json
+  s_41e254574b64db::t_ea1d24511b7812 39,43,46,48-60
+packages/client-data-pipeline/tsconfig.esm.json
+  s_41e254574b64db::t_9a5862136d437e 6
+packages/client-dsql/.gitignore
+  s_41e254574b64db::t_014eb49a78cde4 35,37
+packages/client-dsql/.projen/tasks.json
+  s_41e254574b64db::t_d1bcf67f04ce80 67
+packages/client-dsql/package.json
+  s_41e254574b64db::t_31e7de26020183 39,43,46,48-60
+packages/client-dsql/tsconfig.esm.json
+  s_41e254574b64db::t_40044810cd7a2f 6
+packages/client-dynamodb/.gitignore
+  s_41e254574b64db::t_a63659de6f1d2e 35,37
+packages/client-dynamodb/.projen/tasks.json
+  s_41e254574b64db::t_5aa5ba155b89b4 67
+packages/client-dynamodb/package.json
+  s_41e254574b64db::t_34c36a1d4cdca2 39,43,46,48-60
+packages/client-dynamodb/tsconfig.esm.json
+  s_41e254574b64db::t_53b39f0a51f456 6
+packages/client-ec2/.gitignore
+  s_41e254574b64db::t_5a1ba37dc86fba 35,37
+packages/client-ec2/.projen/tasks.json
+  s_41e254574b64db::t_0505c85b1b386f 67
+packages/client-ec2/package.json
+  s_41e254574b64db::t_354516002dfb4a 39,43,46,48-60
+packages/client-ec2/tsconfig.esm.json
+  s_41e254574b64db::t_d3dd387554bc6f 6
+packages/client-ecr/.gitignore
+  s_41e254574b64db::t_b7d91eff48321c 35,37
+packages/client-ecr/.projen/tasks.json
+  s_41e254574b64db::t_992fe1afa40e55 67
+packages/client-ecr/package.json
+  s_41e254574b64db::t_aa2c8c8c93f1ad 39,43,46,48-60
+packages/client-ecr/tsconfig.esm.json
+  s_41e254574b64db::t_39d5d6e231ceaf 6
+packages/client-ecs/.gitignore
+  s_41e254574b64db::t_06d48833dd0b0b 35,37
+packages/client-ecs/.projen/tasks.json
+  s_41e254574b64db::t_3c90f8dceceed1 67
+packages/client-ecs/package.json
+  s_41e254574b64db::t_227042a3bd556f 39,43,46,48-60
+packages/client-ecs/tsconfig.esm.json
+  s_41e254574b64db::t_7a79f682e10598 6
+packages/client-eks/.gitignore
+  s_41e254574b64db::t_41f11148a7213b 35,37
+packages/client-eks/.projen/tasks.json
+  s_41e254574b64db::t_92e9e4fecadcc5 67
+packages/client-eks/package.json
+  s_41e254574b64db::t_5300a6ddbd450d 39,43,46,48-60
+packages/client-eks/tsconfig.esm.json
+  s_41e254574b64db::t_3048717c040e0d 6
+packages/client-elastic-load-balancing-v2/.gitignore
+  s_41e254574b64db::t_471b6015e467a1 35,37
+packages/client-elastic-load-balancing-v2/.projen/tasks.json
+  s_41e254574b64db::t_0036f89658f648 67
+packages/client-elastic-load-balancing-v2/package.json
+  s_41e254574b64db::t_7c30234c6d027b 39,43,46,48-60
+packages/client-elastic-load-balancing-v2/tsconfig.esm.json
+  s_41e254574b64db::t_75775a5032fb68 6
+packages/client-elasticache/.gitignore
+  s_41e254574b64db::t_6ad2a919bfae8f 35,37
+packages/client-elasticache/.projen/tasks.json
+  s_41e254574b64db::t_ef5a445e81c32a 67
+packages/client-elasticache/package.json
+  s_41e254574b64db::t_451aaacecab1fc 39,43,46,48-60
+packages/client-elasticache/tsconfig.esm.json
+  s_41e254574b64db::t_cfefea11002dd5 6
+packages/client-eventbridge/.gitignore
+  s_41e254574b64db::t_a4ed42a0b6a466 35,37
+packages/client-eventbridge/.projen/tasks.json
+  s_41e254574b64db::t_1bad560c3370bc 67
+packages/client-eventbridge/package.json
+  s_41e254574b64db::t_d949d81e8028c2 39,43,46,48-60
+packages/client-eventbridge/tsconfig.esm.json
+  s_41e254574b64db::t_a5e71acd7abb19 6
+packages/client-firehose/.gitignore
+  s_41e254574b64db::t_66b738e56a49ef 35,37
+packages/client-firehose/.projen/tasks.json
+  s_41e254574b64db::t_8bdd61653ad8e1 67
+packages/client-firehose/package.json
+  s_41e254574b64db::t_536389a4abb973 39,43,46,48-60
+packages/client-firehose/tsconfig.esm.json
+  s_41e254574b64db::t_3a9f89e0be3b85 6
+packages/client-glue/.gitignore
+  s_41e254574b64db::t_32b4c0c205b43c 35,37
+packages/client-glue/.projen/tasks.json
+  s_41e254574b64db::t_1e92f5e4155c38 67
+packages/client-glue/package.json
+  s_41e254574b64db::t_d50f5e8bae7978 39,43,46,48-60
+packages/client-glue/tsconfig.esm.json
+  s_41e254574b64db::t_0b7b7d10ca7ea0 6
+packages/client-iam/.gitignore
+  s_41e254574b64db::t_7cd8f3320b23bb 35,37
+packages/client-iam/.projen/tasks.json
+  s_41e254574b64db::t_26aa4322f64267 67
+packages/client-iam/package.json
+  s_41e254574b64db::t_e178d116224ac4 39,43,46,48-60
+packages/client-iam/tsconfig.esm.json
+  s_41e254574b64db::t_e01be6420817d1 6
+packages/client-iot-data-plane/.gitignore
+  s_41e254574b64db::t_4a6f3ee00859ff 35,37
+packages/client-iot-data-plane/.projen/tasks.json
+  s_41e254574b64db::t_b2def85b57df31 67
+packages/client-iot-data-plane/package.json
+  s_41e254574b64db::t_8c18cef238b0bf 39,43,46,48-60
+packages/client-iot-data-plane/tsconfig.esm.json
+  s_41e254574b64db::t_709a34567a4f19 6
+packages/client-iot-jobs-data-plane/.gitignore
+  s_41e254574b64db::t_4c49a00db52652 35,37
+packages/client-iot-jobs-data-plane/.projen/tasks.json
+  s_41e254574b64db::t_1335e20f7f5899 67
+packages/client-iot-jobs-data-plane/package.json
+  s_41e254574b64db::t_0a58b09503b7a5 39,43,46,48-60
+packages/client-iot-jobs-data-plane/tsconfig.esm.json
+  s_41e254574b64db::t_20f1c5ccbb86ec 6
+packages/client-iot-wireless/.gitignore
+  s_41e254574b64db::t_831937b577af61 35,37
+packages/client-iot-wireless/.projen/tasks.json
+  s_41e254574b64db::t_bd278979c79c02 67
+packages/client-iot-wireless/package.json
+  s_41e254574b64db::t_ede9296a8c0ab1 39,43,46,48-60
+packages/client-iot-wireless/tsconfig.esm.json
+  s_41e254574b64db::t_c100d92279b887 6
+packages/client-iot/.gitignore
+  s_41e254574b64db::t_747827fae856fc 35,37
+packages/client-iot/.projen/tasks.json
+  s_41e254574b64db::t_ade830761417b0 67
+packages/client-iot/package.json
+  s_41e254574b64db::t_f8e34f395588d6 39,43,46,48-60
+packages/client-iot/tsconfig.esm.json
+  s_41e254574b64db::t_5b0615ec3614ad 6
+packages/client-ivs/.gitignore
+  s_41e254574b64db::t_6de0e7bddff652 35,37
+packages/client-ivs/.projen/tasks.json
+  s_41e254574b64db::t_32d313786d0771 67
+packages/client-ivs/package.json
+  s_41e254574b64db::t_2af85e84e6e6c8 39,43,46,48-60
+packages/client-ivs/tsconfig.esm.json
+  s_41e254574b64db::t_bc6a73508d071f 6
+packages/client-kafka/.gitignore
+  s_41e254574b64db::t_fb491f00223485 35,37
+packages/client-kafka/.projen/tasks.json
+  s_41e254574b64db::t_c752956a3af27e 67
+packages/client-kafka/package.json
+  s_41e254574b64db::t_57b13faa7324d0 39,43,46,48-60
+packages/client-kafka/tsconfig.esm.json
+  s_41e254574b64db::t_cf74eb46d6b34d 6
+packages/client-kafkaconnect/.gitignore
+  s_41e254574b64db::t_844d0d59a684f6 35,37
+packages/client-kafkaconnect/.projen/tasks.json
+  s_41e254574b64db::t_fa0a706374b571 67
+packages/client-kafkaconnect/package.json
+  s_41e254574b64db::t_fc9240fdfe4a06 39,43,46,48-60
+packages/client-kafkaconnect/tsconfig.esm.json
+  s_41e254574b64db::t_316323e4225d84 6
+packages/client-kinesis/.gitignore
+  s_41e254574b64db::t_3144de8f77fd60 35,37
+packages/client-kinesis/.projen/tasks.json
+  s_41e254574b64db::t_2a22bfecb0a5f4 67
+packages/client-kinesis/package.json
+  s_41e254574b64db::t_f2f461a24979b0 39,43,46,48-60
+packages/client-kinesis/tsconfig.esm.json
+  s_41e254574b64db::t_7e181111f089e8 6
+packages/client-kms/.gitignore
+  s_41e254574b64db::t_fc3af10f0dbabb 35,37
+packages/client-kms/.projen/tasks.json
+  s_41e254574b64db::t_b27b26d008d4da 67
+packages/client-kms/package.json
+  s_41e254574b64db::t_1f6d11936a4e18 39,43,46,48-60
+packages/client-kms/tsconfig.esm.json
+  s_41e254574b64db::t_7c0f0b1a8a97d6 6
+packages/client-lambda/.gitignore
+  s_41e254574b64db::t_96357651dff724 35,37
+packages/client-lambda/.projen/tasks.json
+  s_41e254574b64db::t_98c109eb6e5e41 67
+packages/client-lambda/package.json
+  s_41e254574b64db::t_d143c210b589d7 39,43,46,48-60
+packages/client-lambda/tsconfig.esm.json
+  s_41e254574b64db::t_ad119c08226723 6
+packages/client-mq/.gitignore
+  s_41e254574b64db::t_16e4a820e271a3 35,37
+packages/client-mq/.projen/tasks.json
+  s_41e254574b64db::t_0901f0d604b390 67
+packages/client-mq/package.json
+  s_41e254574b64db::t_08490d0968de6c 39,43,46,48-60
+packages/client-mq/tsconfig.esm.json
+  s_41e254574b64db::t_3bdfb49334ebc7 6
+packages/client-opensearch-serverless/.gitignore
+  s_41e254574b64db::t_639302b035d55c 35,37
+packages/client-opensearch-serverless/.projen/tasks.json
+  s_41e254574b64db::t_2ca907e17b27b3 67
+packages/client-opensearch-serverless/package.json
+  s_41e254574b64db::t_0cdd82b2814eed 39,43,46,48-60
+packages/client-opensearch-serverless/tsconfig.esm.json
+  s_41e254574b64db::t_8445211ef4248a 6
+packages/client-opensearch/.gitignore
+  s_41e254574b64db::t_0f29c254a0d269 35,37
+packages/client-opensearch/.projen/tasks.json
+  s_41e254574b64db::t_418de52b3dac32 67
+packages/client-opensearch/package.json
+  s_41e254574b64db::t_91c264f10bab78 39,43,46,48-60
+packages/client-opensearch/tsconfig.esm.json
+  s_41e254574b64db::t_0c37944ba0d246 6
+packages/client-organizations/.gitignore
+  s_41e254574b64db::t_2690bd837e0bcd 35,37
+packages/client-organizations/.projen/tasks.json
+  s_41e254574b64db::t_8c23337950e8f4 67
+packages/client-organizations/package.json
+  s_41e254574b64db::t_a6169cc229c829 39,43,46,48-60
+packages/client-organizations/tsconfig.esm.json
+  s_41e254574b64db::t_3b190eb2156f69 6
+packages/client-rds/.gitignore
+  s_41e254574b64db::t_0727f3c921174e 35,37
+packages/client-rds/.projen/tasks.json
+  s_41e254574b64db::t_bac600493a7d88 67
+packages/client-rds/package.json
+  s_41e254574b64db::t_10d10d91595f5a 39,43,46,48-60
+packages/client-rds/tsconfig.esm.json
+  s_41e254574b64db::t_11e937dc672d48 6
+packages/client-resource-groups-tagging-api/.gitignore
+  s_41e254574b64db::t_3f6c3426049d65 35,37
+packages/client-resource-groups-tagging-api/.projen/tasks.json
+  s_41e254574b64db::t_82a6af182038ff 67
+packages/client-resource-groups-tagging-api/package.json
+  s_41e254574b64db::t_962b7ad7146628 39,43,46,48-60
+packages/client-resource-groups-tagging-api/tsconfig.esm.json
+  s_41e254574b64db::t_b6fb3a30e3ba3e 6
+packages/client-s3/.gitignore
+  s_41e254574b64db::t_c3970c3cd8e166 35,37
+packages/client-s3/.projen/tasks.json
+  s_41e254574b64db::t_87bfe283828384 67
+packages/client-s3/package.json
+  s_41e254574b64db::t_2dabf62f910961 41,45,48,50-62
+packages/client-s3/tsconfig.esm.json
+  s_41e254574b64db::t_8301f4e7aa4913 6
+packages/client-scheduler/.gitignore
+  s_41e254574b64db::t_5a76ce9be4281d 35,37
+packages/client-scheduler/.projen/tasks.json
+  s_41e254574b64db::t_07dca2feb1f5fb 67
+packages/client-scheduler/package.json
+  s_41e254574b64db::t_b5822392dffb8b 39,43,46,48-60
+packages/client-scheduler/tsconfig.esm.json
+  s_41e254574b64db::t_7d1e27cc224e91 6
+packages/client-secrets-manager/.gitignore
+  s_41e254574b64db::t_3a21548279cc44 35,37
+packages/client-secrets-manager/.projen/tasks.json
+  s_41e254574b64db::t_5fed0231f67695 67
+packages/client-secrets-manager/package.json
+  s_41e254574b64db::t_e35f7385249674 39,43,46,48-60
+packages/client-secrets-manager/tsconfig.esm.json
+  s_41e254574b64db::t_c814a1ac925796 6
+packages/client-ses/.gitignore
+  s_41e254574b64db::t_0e71963ab4da79 35,37
+packages/client-ses/.projen/tasks.json
+  s_41e254574b64db::t_55810141f3ddc2 67
+packages/client-ses/package.json
+  s_41e254574b64db::t_5c365574c801e6 39,43,46,48-60
+packages/client-ses/tsconfig.esm.json
+  s_41e254574b64db::t_42c8881367c720 6
+packages/client-sesv2/.gitignore
+  s_41e254574b64db::t_f47b8b090116e8 35,37
+packages/client-sesv2/.projen/tasks.json
+  s_41e254574b64db::t_9e7a97552c5c12 67
+packages/client-sesv2/package.json
+  s_41e254574b64db::t_eb97220000b211 39,43,46,48-60
+packages/client-sesv2/tsconfig.esm.json
+  s_41e254574b64db::t_19e69c3779bffa 6
+packages/client-sfn/.gitignore
+  s_41e254574b64db::t_f2ae5765c6517f 35,37
+packages/client-sfn/.projen/tasks.json
+  s_41e254574b64db::t_9318d77ab3ad7b 67
+packages/client-sfn/package.json
+  s_41e254574b64db::t_e8c69fc293ed57 39,43,46,48-60
+packages/client-sfn/tsconfig.esm.json
+  s_41e254574b64db::t_98ec5dc70bcb5c 6
+packages/client-sns/.gitignore
+  s_41e254574b64db::t_c7208ef8c1ae5c 35,37
+packages/client-sns/.projen/tasks.json
+  s_41e254574b64db::t_d1b8c89e0416a2 67
+packages/client-sns/package.json
+  s_41e254574b64db::t_35e080d072efda 39,43,46,48-60
+packages/client-sns/tsconfig.esm.json
+  s_41e254574b64db::t_1a7ea46fea5eec 6
+packages/client-sqs/.gitignore
+  s_41e254574b64db::t_0a185be5dbc35a 35,37
+packages/client-sqs/.projen/tasks.json
+  s_41e254574b64db::t_ad2f331b55dc28 67
+packages/client-sqs/package.json
+  s_41e254574b64db::t_4535e9f3ef0eeb 39,43,46,48-60
+packages/client-sqs/tsconfig.esm.json
+  s_41e254574b64db::t_bbfa56d3aecb2b 6
+packages/client-ssm/.gitignore
+  s_41e254574b64db::t_d51ff71d629d1f 35,37
+packages/client-ssm/.projen/tasks.json
+  s_41e254574b64db::t_27c674c2f6c36c 67
+packages/client-ssm/package.json
+  s_41e254574b64db::t_fdfb7cf025f404 39,43,46,48-60
+packages/client-ssm/tsconfig.esm.json
+  s_41e254574b64db::t_701cb030605ee7 6
+packages/client-sts/.gitignore
+  s_41e254574b64db::t_548ae8d20cbd16 35,37
+packages/client-sts/.projen/tasks.json
+  s_41e254574b64db::t_fefb205beb4785 67
+packages/client-sts/package.json
+  s_41e254574b64db::t_5a8e210083ed9e 39,43,46,48-60
+packages/client-sts/tsconfig.esm.json
+  s_41e254574b64db::t_6cae941eb71182 6
+packages/client-textract/.gitignore
+  s_41e254574b64db::t_465bda3248732d 35,37
+packages/client-textract/.projen/tasks.json
+  s_41e254574b64db::t_0eee6dae33f333 67
+packages/client-textract/package.json
+  s_41e254574b64db::t_d1a648fc2d76b8 39,43,46,48-60
+packages/client-textract/tsconfig.esm.json
+  s_41e254574b64db::t_40111bf3123b40 6
+packages/client-timestream-influxdb/.gitignore
+  s_41e254574b64db::t_0fbe76b9e8c758 35,37
+packages/client-timestream-influxdb/.projen/tasks.json
+  s_41e254574b64db::t_e81ca1441b4005 67
+packages/client-timestream-influxdb/package.json
+  s_41e254574b64db::t_54ea5126a18783 39,43,46,48-60
+packages/client-timestream-influxdb/tsconfig.esm.json
+  s_41e254574b64db::t_f025e1a92d5b60 6
+packages/client-timestream-query/.gitignore
+  s_41e254574b64db::t_c4d3719e52c187 35,37
+packages/client-timestream-query/.projen/tasks.json
+  s_41e254574b64db::t_9ff930b15343ff 67
+packages/client-timestream-query/package.json
+  s_41e254574b64db::t_a408426b27f4ee 39,43,46,48-60
+packages/client-timestream-query/tsconfig.esm.json
+  s_41e254574b64db::t_eb34b014de9cce 6
+packages/client-timestream-write/.gitignore
+  s_41e254574b64db::t_2527aedf599dcd 35,37
+packages/client-timestream-write/.projen/tasks.json
+  s_41e254574b64db::t_54b76eea88ff2f 67
+packages/client-timestream-write/package.json
+  s_41e254574b64db::t_75306e5569d42a 39,43,46,48-60
+packages/client-timestream-write/tsconfig.esm.json
+  s_41e254574b64db::t_eb25adcc6383d2 6
+packages/cloudfront/.gitignore
+  s_41e254574b64db::t_a8f6e3b986ff98 35,37
+packages/cloudfront/.projen/tasks.json
+  s_41e254574b64db::t_7a429c8c73d69d 67
+packages/cloudfront/package.json
+  s_41e254574b64db::t_225f08568867d7 38,42,45,47-59
+packages/cloudfront/tsconfig.esm.json
+  s_41e254574b64db::t_cc0c54f8c197cf 6
+packages/commons/.gitignore
+  s_41e254574b64db::t_be68ba6dd038e0 35,37
+packages/commons/.projen/tasks.json
+  s_41e254574b64db::t_4c5cecba83f7c0 67
+packages/commons/package.json
+  s_41e254574b64db::t_ed10ca9a1dd2bb 42,46,49,51-63
+packages/commons/tsconfig.esm.json
+  s_41e254574b64db::t_cecfefe2ed6ec2 6
+packages/dsql/.gitignore
+  s_41e254574b64db::t_c0273fcb8006b6 35,37
+packages/dsql/.projen/tasks.json
+  s_41e254574b64db::t_584ab630943520 67
+packages/dsql/package.json
+  s_41e254574b64db::t_edac0e99cca1b7 38,42,45,47-59
+packages/dsql/tsconfig.esm.json
+  s_41e254574b64db::t_53c058a6da4b17 6
+packages/dynamodb/.gitignore
+  s_41e254574b64db::t_94be4c13c85d58 35,37
+packages/dynamodb/.projen/tasks.json
+  s_41e254574b64db::t_57b022b2ae24d4 67
+packages/dynamodb/package.json
+  s_41e254574b64db::t_3cefadd06bd76f 42,46,49,51-63
+packages/dynamodb/tsconfig.esm.json
+  s_41e254574b64db::t_84e56a4e8d9d33 6
+packages/http-handler/.gitignore
+  s_41e254574b64db::t_b4eed274730e27 35,37
+packages/http-handler/.projen/tasks.json
+  s_41e254574b64db::t_e9ad10440fbf36 67
+packages/http-handler/package.json
+  s_41e254574b64db::t_a4d171262aa855 42,46,49,51-63
+packages/http-handler/tsconfig.esm.json
+  s_41e254574b64db::t_1b8cf77ed865af 6
+packages/lambda/.gitignore
+  s_41e254574b64db::t_5aeec6dd1579ac 35,37
+packages/lambda/.projen/tasks.json
+  s_41e254574b64db::t_ab30572740ef60 67
+packages/lambda/package.json
+  s_41e254574b64db::t_970ec879358e0d 38,42,45,47-59
+packages/lambda/tsconfig.esm.json
+  s_41e254574b64db::t_cc5fe663a59288 6
+packages/powertools-logger/.gitignore
+  s_41e254574b64db::t_d0fd08a4acc968 35,37
+packages/powertools-logger/.projen/tasks.json
+  s_41e254574b64db::t_745633ad34a02f 67
+packages/powertools-logger/package.json
+  s_41e254574b64db::t_b81c14426991de 38,42,45,47-59
+packages/powertools-logger/tsconfig.esm.json
+  s_41e254574b64db::t_da76bff7231908 6
+packages/powertools-tracer/.gitignore
+  s_41e254574b64db::t_7d563a47b254a9 35,37
+packages/powertools-tracer/.projen/tasks.json
+  s_41e254574b64db::t_21f3265b017d5f 67
+packages/powertools-tracer/package.json
+  s_41e254574b64db::t_1314b907fbfe32 43,47,50,52-64
+packages/powertools-tracer/tsconfig.esm.json
+  s_41e254574b64db::t_2d19f87a395364 6
+packages/s3/.gitignore
+  s_41e254574b64db::t_cf01183f07c843 35,37
+packages/s3/.projen/tasks.json
+  s_41e254574b64db::t_e5c7716470ed4b 67
+packages/s3/package.json
+  s_41e254574b64db::t_d692fecf8d1bc3 38,42,45,47-59
+packages/s3/tsconfig.esm.json
+  s_41e254574b64db::t_653efaed5677c3 6
+packages/secrets-manager/.gitignore
+  s_41e254574b64db::t_dfcea9240b8ad3 35,37
+packages/secrets-manager/.projen/tasks.json
+  s_41e254574b64db::t_141ecae5c18a20 67
+packages/secrets-manager/package.json
+  s_41e254574b64db::t_12489657bb5d7b 39,43,46,48-60
+packages/secrets-manager/tsconfig.esm.json
+  s_41e254574b64db::t_64eb408e6772d6 6
+packages/ssm/.gitignore
+  s_41e254574b64db::t_3053642b6e34c2 35,37
+packages/ssm/.projen/tasks.json
+  s_41e254574b64db::t_afa690ca7122cd 67
+packages/ssm/package.json
+  s_41e254574b64db::t_5e6c8db826b03d 39,43,46,48-60
+packages/ssm/tsconfig.esm.json
+  s_41e254574b64db::t_9e07109418dfba 6
+pnpm-lock.yaml
+  s_41e254574b64db::t_b272a73d0f2398 124,143,162,181,200,219,238,257,276,295,314,333,352,371,390,409,428,447,466,485,504,523,542,561,580,599,618,637,656,675,694,713,732,751,770,789,808,827,846,865,884,903,922,941,960,979,998,1017,1036,1061,1080,1099,1118,1137,1156,1175,1194,1213,1232,1251,1270,1289,1308,1390,1394,1419,1480,1501,1519,1540,2596,2603,2610,2617,2624,2631,2980,2986,2992,2998,3004,3010,3016,3022,3028,3034,4350,4357,4364,4371
+projenrc/typescript-project.ts
+  s_41e254574b64db::t_e20bcb802289db 62-63,81-82,84,109,111,121-133,148
+projenrc/vitest.ts
+  s_41e254574b64db::t_c9a64ba2f696e9 58
+vitest.shared.ts
+  s_41e254574b64db::t_ae055c7e45ba0c 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c1b762be58e73bf17c8ef2cce00defe3bb850b1a",
+  "prompts": {},
+  "sessions": {
+    "s_41e254574b64db": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7cd8893d-4b34-4340-8865-eee8c7b35b0a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Bert De Geyter <787914+TheHolyWaffle@users.noreply.github.com>"
+    }
+  }
+}
