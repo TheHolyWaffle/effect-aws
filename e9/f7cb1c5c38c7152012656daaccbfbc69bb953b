@@ -1,0 +1,179 @@
+.changeset/esm-only-package-exports.md
+  s_41e254574b64db::t_1b2cf9188f8dc3 1-78
+packages/client-account/.projen/tasks.json
+  s_079e29a3294328::t_3ec0cf5adfc0ed 71-73
+packages/client-api-gateway-management-api/.projen/tasks.json
+  s_079e29a3294328::t_c30a9eaf00a2e3 71-73
+packages/client-api-gateway-v2/.projen/tasks.json
+  s_079e29a3294328::t_c45b462f24f370 71-73
+packages/client-api-gateway/.projen/tasks.json
+  s_079e29a3294328::t_24d265ec9a0f02 71-73
+packages/client-athena/.projen/tasks.json
+  s_079e29a3294328::t_560f40e8bccf20 71-73
+packages/client-auto-scaling/.projen/tasks.json
+  s_079e29a3294328::t_3407929371ef1f 71-73
+packages/client-bedrock-agent/.projen/tasks.json
+  s_079e29a3294328::t_c92ba72c93bb3f 71-73
+packages/client-bedrock-agentcore-control/.projen/tasks.json
+  s_079e29a3294328::t_d03ae71c4c20c4 71-73
+packages/client-bedrock-agentcore/.projen/tasks.json
+  s_079e29a3294328::t_9e48ec20360a1e 71-73
+packages/client-bedrock-runtime/.projen/tasks.json
+  s_079e29a3294328::t_0f8f5b4ec4ca74 71-73
+packages/client-bedrock/.projen/tasks.json
+  s_079e29a3294328::t_56b9ac7929acb3 71-73
+packages/client-cloudformation/.projen/tasks.json
+  s_079e29a3294328::t_f3cfe16f6b441c 71-73
+packages/client-cloudfront/.projen/tasks.json
+  s_079e29a3294328::t_9f7b601693499a 71-73
+packages/client-cloudsearch/.projen/tasks.json
+  s_079e29a3294328::t_e8ea118704707b 71-73
+packages/client-cloudtrail/.projen/tasks.json
+  s_079e29a3294328::t_c292c1c4dea47f 71-73
+packages/client-cloudwatch-events/.projen/tasks.json
+  s_079e29a3294328::t_b5823fe9d6b158 71-73
+packages/client-cloudwatch-logs/.projen/tasks.json
+  s_079e29a3294328::t_536e77b87ab0f3 71-73
+packages/client-cloudwatch/.projen/tasks.json
+  s_079e29a3294328::t_9091157a9f6809 71-73
+packages/client-codedeploy/.projen/tasks.json
+  s_079e29a3294328::t_163ebe68a2124f 71-73
+packages/client-cognito-identity-provider/.projen/tasks.json
+  s_079e29a3294328::t_b7f1809bf44aad 71-73
+packages/client-data-pipeline/.projen/tasks.json
+  s_079e29a3294328::t_fbd40140d9e6e7 71-73
+packages/client-dsql/.projen/tasks.json
+  s_079e29a3294328::t_33bce014dfc00c 71-73
+packages/client-dynamodb/.projen/tasks.json
+  s_079e29a3294328::t_74fedc8eefb53b 71-73
+packages/client-ec2/.projen/tasks.json
+  s_079e29a3294328::t_33ea8cce2f0f67 71-73
+packages/client-ecr/.projen/tasks.json
+  s_079e29a3294328::t_f4ca4587397c37 71-73
+packages/client-ecs/.projen/tasks.json
+  s_079e29a3294328::t_de8637e8c91695 71-73
+packages/client-eks/.projen/tasks.json
+  s_079e29a3294328::t_6e8ebef1872df3 71-73
+packages/client-elastic-load-balancing-v2/.projen/tasks.json
+  s_079e29a3294328::t_ea543858e93ac6 71-73
+packages/client-elasticache/.projen/tasks.json
+  s_079e29a3294328::t_e51fd9563002de 71-73
+packages/client-eventbridge/.projen/tasks.json
+  s_079e29a3294328::t_254358490e27dd 71-73
+packages/client-firehose/.projen/tasks.json
+  s_079e29a3294328::t_933b394bddb709 71-73
+packages/client-glue/.projen/tasks.json
+  s_079e29a3294328::t_8761510bcca598 71-73
+packages/client-iam/.projen/tasks.json
+  s_079e29a3294328::t_403dc49c0073a0 71-73
+packages/client-iot-data-plane/.projen/tasks.json
+  s_079e29a3294328::t_f007f69177c711 71-73
+packages/client-iot-jobs-data-plane/.projen/tasks.json
+  s_079e29a3294328::t_a413e1dcd81a61 71-73
+packages/client-iot-wireless/.projen/tasks.json
+  s_079e29a3294328::t_f83501a0e4adac 71-73
+packages/client-iot/.projen/tasks.json
+  s_079e29a3294328::t_1f56c4b7971914 71-73
+packages/client-ivs/.projen/tasks.json
+  s_079e29a3294328::t_9d60c88396afcd 71-73
+packages/client-kafka/.projen/tasks.json
+  s_079e29a3294328::t_06f9796dbaf2d0 71-73
+packages/client-kafkaconnect/.projen/tasks.json
+  s_079e29a3294328::t_35b28195113c79 71-73
+packages/client-kinesis/.projen/tasks.json
+  s_079e29a3294328::t_dc137e9ead484c 71-73
+packages/client-kms/.projen/tasks.json
+  s_079e29a3294328::t_4ecf435cba7278 71-73
+packages/client-lambda/.projen/tasks.json
+  s_079e29a3294328::t_6fe6e11d2dde2a 71-73
+packages/client-mq/.projen/tasks.json
+  s_079e29a3294328::t_ecf34c2625bf47 71-73
+packages/client-opensearch-serverless/.projen/tasks.json
+  s_079e29a3294328::t_1fb8948e8498f4 71-73
+packages/client-opensearch/.projen/tasks.json
+  s_079e29a3294328::t_4615ef138641ae 71-73
+packages/client-organizations/.projen/tasks.json
+  s_079e29a3294328::t_735c1cfa52d354 71-73
+packages/client-rds/.projen/tasks.json
+  s_079e29a3294328::t_66a698b09f0d68 71-73
+packages/client-resource-groups-tagging-api/.projen/tasks.json
+  s_079e29a3294328::t_8ff2a46d61ade8 71-73
+packages/client-s3/.projen/tasks.json
+  s_079e29a3294328::t_ce30f0d736fe63 71-73
+packages/client-scheduler/.projen/tasks.json
+  s_079e29a3294328::t_1a8c450db11428 71-73
+packages/client-secrets-manager/.projen/tasks.json
+  s_079e29a3294328::t_dc94ff98043f1c 71-73
+packages/client-ses/.projen/tasks.json
+  s_079e29a3294328::t_8d5e5aa98e9d55 71-73
+packages/client-sesv2/.projen/tasks.json
+  s_079e29a3294328::t_8ddd468495b5de 71-73
+packages/client-sfn/.projen/tasks.json
+  s_079e29a3294328::t_96a818023ed719 71-73
+packages/client-sns/.projen/tasks.json
+  s_079e29a3294328::t_10ebe833106c6f 71-73
+packages/client-sqs/.projen/tasks.json
+  s_079e29a3294328::t_8f0c5328e9253e 71-73
+packages/client-ssm/.projen/tasks.json
+  s_079e29a3294328::t_a3633520c20d52 71-73
+packages/client-sts/.projen/tasks.json
+  s_079e29a3294328::t_4b8f318afbb7c3 71-73
+packages/client-textract/.projen/tasks.json
+  s_079e29a3294328::t_b1ac12d031e764 71-73
+packages/client-timestream-influxdb/.projen/tasks.json
+  s_079e29a3294328::t_925671b00af51b 71-73
+packages/client-timestream-query/.projen/tasks.json
+  s_079e29a3294328::t_caaa57101fd541 71-73
+packages/client-timestream-write/.projen/tasks.json
+  s_079e29a3294328::t_79105f5e610fcb 71-73
+packages/cloudfront/.projen/tasks.json
+  s_079e29a3294328::t_e8c98b89516804 71-73
+packages/commons/.projen/tasks.json
+  s_079e29a3294328::t_7c813c16bd4d12 71-73
+packages/dsql/.projen/tasks.json
+  s_079e29a3294328::t_9a52ad3d4fb9d7 71-73
+packages/dynamodb/.projen/tasks.json
+  s_079e29a3294328::t_d61efdc4a6df22 71-73
+packages/http-handler/.projen/tasks.json
+  s_079e29a3294328::t_d3f32ab6f52f8a 71-73
+packages/lambda/.projen/tasks.json
+  s_079e29a3294328::t_f9fa421898ed7b 71-73
+packages/powertools-logger/.projen/tasks.json
+  s_079e29a3294328::t_4f612e0207654b 71-73
+packages/powertools-tracer/.projen/tasks.json
+  s_079e29a3294328::t_e9be24ff455923 71-73
+packages/s3/.projen/tasks.json
+  s_079e29a3294328::t_6aa8163b197f79 71-73
+packages/secrets-manager/.projen/tasks.json
+  s_079e29a3294328::t_dfb3f2d09b77ee 71-73
+packages/ssm/.projen/tasks.json
+  s_079e29a3294328::t_f74a0e3471eca1 71-73
+projenrc/build-utils.ts
+  s_41e254574b64db::t_00c9390ecbbf08 20
+scripts/esm-only-package.ts
+  s_41e254574b64db::t_4dfd9cd862dd83 1-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "e9f7cb1c5c38c7152012656daaccbfbc69bb953b",
+  "prompts": {},
+  "sessions": {
+    "s_079e29a3294328": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cddeb1da-1e67-4031-882c-d686a81853f8",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Bert De Geyter <787914+TheHolyWaffle@users.noreply.github.com>"
+    },
+    "s_41e254574b64db": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7cd8893d-4b34-4340-8865-eee8c7b35b0a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Bert De Geyter <787914+TheHolyWaffle@users.noreply.github.com>"
+    }
+  }
+}
