@@ -263,10 +263,15 @@ export const makeWebHandler = <LA, LE>(
   options?: HttpApiOptions,
 ) =>
   Effect.gen(function*() {
-    // Built here rather than inside `HttpRouter.toWebHandler`, so a failed build fails this effect instead of
-    // every request.
-    const httpEffect = yield* HttpRouter.toHttpEffect(httpRouter);
+    // Built here so a failed build fails this effect instead of every request. Not via `HttpRouter.toHttpEffect`,
+    // which builds in a fork of the memo map, so its layers wouldn't be shared through `options.memoMap`.
     const services = yield* Effect.context<never>();
+    const router = yield* Layer.buildWithMemoMap(
+      Layer.provideMerge(httpRouter, HttpRouter.layer),
+      options?.memoMap ?? Layer.CurrentMemoMap.forkOrCreate(services),
+      yield* Effect.scope,
+    ).pipe(Effect.map(Context.get(HttpRouter.HttpRouter)));
+    const httpEffect = router.asHttpEffect();
     const middleware = options?.middleware
       ? compose(options.middleware, HttpMiddleware.logger)
       : HttpMiddleware.logger;

@@ -410,6 +410,48 @@ describe("LambdaHandler", () => {
       expect(result).toMatchObject({ statusCode: 200, body: "Hello, World!" });
       expect(builds).toBe(2);
     });
+    it("should share layers with other handlers through the memoMap", async () => {
+      const context = {
+        functionVersion: "$LATEST",
+        functionName: "demo-effect-app-dev-api",
+        invokedFunctionArn: "arn:aws:lambda:eu-fake-1:000000000000:function:demo-effect-app-dev-api",
+        awsRequestId: "8ad41330-f092-4037-bc7c-63ffb7d6d4e7",
+      } as LambdaContext;
+
+      const hello = HttpApiEndpoint.get("hello", `/hello`, {
+        success: Schema.String.pipe(HttpApiSchema.asText()),
+      });
+
+      const MyApi = HttpApi.make("MyApi").add(HttpApiGroup.make("hello").add(hello));
+
+      const HelloLive = HttpApiBuilder.group(
+        MyApi,
+        "hello",
+        (handlers) => handlers.handle("hello", () => Effect.succeed("Hello, World!")),
+      );
+
+      let builds = 0;
+      const SharedLive = Layer.effectDiscard(Effect.sync(() => builds++));
+
+      const MyApiLive = HttpApiBuilder.layer(MyApi).pipe(
+        Layer.provide(HelloLive),
+        Layer.provide(HttpServer.layerServices),
+        Layer.provide(SharedLive),
+      );
+
+      const memoMap = Layer.makeMemoMapUnsafe();
+      const apiHandler = LambdaHandler.fromHttpApi(MyApiLive, { memoMap });
+      const otherHandler = LambdaHandler.make({
+        handler: () => Effect.succeed("ok"),
+        layer: SharedLive,
+        memoMap,
+      });
+
+      await apiHandler(apiGatewayV1Event, context);
+      await otherHandler({}, context);
+
+      expect(builds).toBe(1);
+    });
   });
 
   describe("LambdaHandler.streamFromHttpApi", () => {
